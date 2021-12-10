@@ -1,0 +1,131 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "deodorant",
+      "image": "https://media.istockphoto.com/vectors/deodorant-stick-blank-white-container-with-bottom-wheel-realistic-vector-id1170341404?k=20&m=1170341404&s=612x612&w=0&h=jf3O7iz30c4DnQdbkFxYmmvEkvapmt_VGi7FbUddns4=",
+      "price": 15,
+      "description": "deodorant that doesn't work",
+      "amount": 0,
+      "added": false
+    },
+    {
+      "id": 2,
+      "name": "toothpaste",
+      "image": "https://cdn11.bigcommerce.com/s-neo29sbo9q/images/stencil/1280x1280/products/40929/35274/1122B15-WB_5__82408.1563469376.jpg?c=2",
+      "price": 10,
+      "description": "toothpaste that doesn't work",
+      "amount": 0,
+      "added": false
+    },
+    {
+      "id": 3,
+      "name": "moisturizer",
+      "image": "https://cdn11.bigcommerce.com/s-neo29sbo9q/images/stencil/1280x1280/products/22448/21291/2411B06-WB__91822.1537453930.jpg?c=2",
+      "price": 25,
+      "description": "moisturizer that doesn't work",
+      "amount": 0,
+      "added": false
+    },
+    {
+      "id": 4,
+      "name": "perfume",
+      "image": "https://cdn11.bigcommerce.com/s-neo29sbo9q/images/stencil/1280x1280/products/44018/35574/9887B01-BFRST-WB__74381.1569423709.jpg?c=2",
+      "price": 100,
+      "description": "perfume that doesn't work",
+      "amount": 0,
+      "added": false
+    },
+    {
+      "id": 5,
+      "name": "pomade",
+      "image": "https://cdn11.bigcommerce.com/s-neo29sbo9q/images/stencil/1280x1280/products/9700/17124/v2852B01-WB__07968.1537452917.jpg?c=2",
+      "price": 25,
+      "description": "pomade that doesn't work",
+      "amount": 0,
+      "added": false
+    },
+    {
+      "id": 6,
+      "name": "health supplement",
+      "image": "https://cdn11.bigcommerce.com/s-neo29sbo9q/images/stencil/1280x1280/products/9816/26908/v3369B01-B-WB__26326.1537455284.jpg?c=2",
+      "price": 25,
+      "description": "health supplement that doesn't work",
+      "amount": 0,
+      "added": false
+    }
+  ],
+  "cart": [],
+  "logins": [
+    {
+      "username": "hello",
+      "password": "there",
+      "id": 1
+    },
+    {
+      "username": "right",
+      "password": "then",
+      "id": 2
+    },
+    {
+      "username": "hfeoijf ",
+      "password": "jaijoijawo ",
+      "id": 3
+    },
+    {
+      "username": "eeee",
+      "password": "eeeee",
+      "id": 4
+    },
+    {
+      "username": "efefefe",
+      "password": "efefefef",
+      "id": 5
+    },
+    {
+      "username": "efefefe",
+      "password": "efefefef",
+      "id": 6
+    },
+    {
+      "username": "fefef",
+      "password": "efef",
+      "id": 7
+    },
+    {
+      "username": "yyyyy",
+      "password": "yyyyyy",
+      "id": 8
+    },
+    {
+      "username": "qqqq",
+      "password": "qqqqq",
+      "id": 9
+    },
+    {
+      "username": "eeeee",
+      "password": "eeeeee",
+      "id": 10
+    },
+    {
+      "username": "eeeee",
+      "password": "eeeeee",
+      "id": 11
+    },
+    {
+      "username": "eee",
+      "password": "eeee",
+      "id": 12
+    },
+    {
+      "username": "eee",
+      "password": "eeee",
+      "id": 13
+    },
+    {
+      "username": "fefe",
+      "password": "efefe",
+      "id": 14
+    }
+  ]
+}
