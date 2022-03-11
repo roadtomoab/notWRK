@@ -218,7 +218,7 @@ a:hover {
 .fade-appear-active,
 .fade-enter.fade-enter-active {
     opacity: 1;
-    transition: opacity 450ms linear 300ms;
+    transition: opacity 450ms linear 250ms;
 }
 
 .fade-exit {
@@ -227,7 +227,7 @@ a:hover {
 
 .fade-exit.fade-exit-active {
     opacity: 0;
-    transition: opacity 300ms linear;
+    transition: opacity 150ms linear;
 }
 
 /* user create account styling */

@@ -11,7 +11,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 
 function App() {
 
-  const baseURL = "http://localhost:3001/products";
+  const baseURL = "http://localhost:3000/products";
 
   const [ productsArray, setProductsArray ] = useState([]);
   const [ cartArray, setCartArray ] = useState([]);
@@ -23,6 +23,8 @@ function App() {
   }
 
   useEffect(fetchData, []);
+
+  console.log(productsArray)
 
   function productsToApp (clickedProduct) {
 
@@ -67,7 +69,7 @@ function App() {
               <TransitionGroup>
               <CSSTransition
               key={location.key}
-              timeout={600}
+              timeout={300}
               classNames="fade"
               >
                 <Switch location={location}>

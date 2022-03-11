@@ -1,6 +1,9 @@
 import { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 
 function Login () {
+
+    let history = useHistory()
 
     const [ formData, setFormData ] = useState({username: "", password: ""})
 
@@ -13,7 +16,7 @@ function Login () {
 
     function handleSubmit(event) {
         event.preventDefault();
-        fetch("http://localhost:3001/logins", {
+        fetch("http://localhost:3000/logins", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -21,6 +24,7 @@ function Login () {
           body: JSON.stringify(formData),
         });
 
+        history.push("products")
         setFormData("")
 
 
@@ -45,7 +49,7 @@ function Login () {
                 <label>
                     <input
                     className="user-input" 
-                    type="text"
+                    type="password"
                     id="password"
                     placeholder="password..."
                     value={formData.password}
